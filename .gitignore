@@ -5,7 +5,7 @@ __pycache__/
 .coverage
 htmlcov/
 .env
-INTERVIEW_QA.md
+PROJECT_NOTES.md
 data/*.db
 logs/*.log
 !logs/.gitkeep
