@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Google",
+    "url": "https://google.com/",
+    "enabled": true,
+    "id": "3dc6bc2e-8d6a-4f22-a52f-059164a36d88",
+    "status": "up",
+    "last_checked_at": "2026-04-27T18:33:06.667740Z",
+    "last_response_time_ms": 293.72,
+    "last_error": null,
+    "uptime_checks": 120,
+    "failed_checks": 3,
+    "created_at": "2026-04-27T17:32:32.784463Z",
+    "updated_at": "2026-04-27T18:33:06.968637Z"
+  },
+  {
+    "name": "Broken API",
+    "url": "https://this-does-not-exist-12345.com/",
+    "enabled": true,
+    "id": "039fc2ec-93fc-454b-a954-b1bd0702ccc0",
+    "status": "down",
+    "last_checked_at": "2026-04-27T18:33:06.668747Z",
+    "last_response_time_ms": 9.56,
+    "last_error": "[Errno 11001] getaddrinfo failed",
+    "uptime_checks": 36,
+    "failed_checks": 36,
+    "created_at": "2026-04-27T18:14:42.938393Z",
+    "updated_at": "2026-04-27T18:33:06.678266Z"
+  }
+]

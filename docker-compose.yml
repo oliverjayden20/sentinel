@@ -1,0 +1,12 @@
+services:
+  sentinel:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SENTINEL_DATABASE_FILE: /app/data/sentinel.db
+      SENTINEL_LOG_FILE: /app/logs/system.log
+      SENTINEL_MONITOR_INTERVAL_SECONDS: 30
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs

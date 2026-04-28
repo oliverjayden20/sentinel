@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.pytest_cache": true,
+    "**/.venv": true,
+    "**/__pycache__": true,
+    "data/*.db": true,
+    "logs/*.log": true
+  }
+}
